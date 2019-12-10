@@ -4,23 +4,23 @@
     public static void main(String[] args) {
     
       Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
+        int n = sc.nextInt();
         
-         if(N%2!=0)
+         if(n%2!=0)
         {
-            System.out.println("Weird");
+            System.out.println("Odd");
         }
-        else if((N%2==0)&&((N>=2)&&(N<=5)))
+        else if((n%2==0)&&((n>=2)&&(n<=5)))
         {
-            System.out.println("Not Weird");
+            System.out.println("Child Even");
         }
-        else if((N%2==0)&&((N>=6)&&(N<=20)))
+        else if((n%2==0)&&((n>=6)&&(n<=20)))
         {
-           System.out.println("Weird");  
+           System.out.println("Teenage Even");  
         }
-        else if ((N%2==0)&&(N>20))
+        else if ((n%2==0)&&(n>20))
         {
-          System.out.println("Not Weird");  
+          System.out.println("adult Even");  
         }
     }
 }
