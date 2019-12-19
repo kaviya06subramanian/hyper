@@ -7,10 +7,12 @@ class Main {
     public static void main(String[] args) 
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER HOW MANY TIMES IT HAS TO RUN");
         int t = sc.nextInt();
         
         for(int i = 0; i < t; i++)
-        {
+        { 
+           System.out.println("ENTER THE RANGE"); 
             long n = sc.nextLong();
             a=0;b=1;c=0;s=0;d=0;
             fact(n-1);  
