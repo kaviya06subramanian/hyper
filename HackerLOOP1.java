@@ -10,7 +10,7 @@ class Loop
    System.out.println("ENTER THE NUMBER OF TIMES THE LOOP HAS TO WORK");
    int Q=sc.nextInt();
 
-//(a+(2^0*b)),(a+(2^0*b)+(2^1*b)),....,(a+(2^0*b)+(2^1*b)+....+(2^n-1*b))
+//(a+((2^0)*b)),(a+((2^0)*b)+((2^1)*b)),....,(a+((2^0)*b)+((2^1)*b)+....+((2^n-1)*b))
    for(int i=0;i<Q;i++)
    {
    System.out.println("ENTER THE VALUES FOR A,B AND THE POWER N");
